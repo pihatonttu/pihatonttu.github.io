@@ -1,0 +1,46 @@
+body {
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif !important;
+}
+.ylainfo {
+  background-color: lightgray;
+}
+.footer {
+  background-color: #056119;
+  color:white;
+}
+.navigaatio {
+  background-color: #056119; 
+}
+.nav-link{
+  color:white !important;
+  font-size: 18px !important;
+}
+li {
+  list-style-type: none;
+}
+.ylainfo .numero{
+  text-align: right;
+}
+.ylainfo .osoite{
+  text-align: left;
+}
+
+.eka,.neljas,.viides {
+  background-color: lightgray;
+}
+
+@media (max-width: 767.98px) {
+  .ylainfo .numero, .ylainfo .osoite{
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 991.98px) { 
+  .eka,.kolmas,.viides {
+    background-color: lightgray;
+  }
+  .neljas {
+    background-color: white;
+  }
+}
