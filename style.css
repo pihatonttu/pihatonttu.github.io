@@ -1,18 +1,21 @@
 body {
   font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif !important;
+  background-image: url("Kuvat/tausta.jpg");
 }
 .ylainfo {
   background-color: lightgray;
 }
-.footer {
+.footer { 
   background-color: #056119;
   color:white;
+}
+body {
+  
 }
 .navigaatio {
   background-color: #056119; 
 }
 .nav-link{
-  color:white !important;
   font-size: 18px !important;
 }
 li {
@@ -26,12 +29,17 @@ li {
 }
 
 .eka,.neljas,.viides {
-  background-color: lightgray;
+  background: lightgray;
 }
+
+
 
 @media (max-width: 767.98px) {
   .ylainfo .numero, .ylainfo .osoite{
     text-align: center;
+  }
+  .ylainfo {
+    margin-bottom: 2%;
   }
 
 }
@@ -40,6 +48,7 @@ li {
   .eka,.kolmas,.viides {
     background-color: lightgray;
   }
+
   .neljas {
     background-color: white;
   }
